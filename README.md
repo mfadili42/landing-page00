@@ -1,1 +1,2 @@
 # landing-page00
+This is my second project on the odin project . in this simple landing page i used box-model properties such as margin, padding and border . and i used also flex box to arrange elements within containres

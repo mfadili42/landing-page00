@@ -1,0 +1,142 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* start header */
+.header{
+    background-color: #1f2937;
+    height:380px;
+}
+.container {
+    margin-left: 200px;
+    margin-right: 200px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo {
+    width:60px;
+}
+ul{
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+    font-size: 14px;
+    list-style: none;
+} 
+a {
+    color:#e5e7eb;
+    text-decoration: none;
+}
+.container1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content:space-between;
+}
+h1 {
+    font-size: 48px;
+    color:#f9faf8;
+    text-transform: capitalize;
+    margin-bottom: -10px;
+}
+.container1 p {
+    font-size: 14px;
+    color:#e5e7eb;
+    font-weight: 30;
+}
+.container1 img{
+    width:710px;
+    height:250px;
+    margin-top: 30px;
+}
+ button {
+background-color:  #3882f6;
+color:#e5e7eb;
+text-transform: capitalize;
+border:none;
+width:100px;
+height:30px;
+border-radius: 4px;
+}
+/* end header */
+/* start section two */
+.cars {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content:space-around;
+}
+.section-two h2 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.cars img{
+    width:210px;
+    height:210px;
+}
+.cars div {
+    width: 210px;
+}
+.cars p {
+    font-weight: 400;
+    font-size: 14px;
+}
+/* end section two */
+/* start section three */
+.section-three {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #e5e7eb;
+    margin-top:80px;
+    margin-bottom:80px;
+    padding:50px 70px;
+}
+.section-three p {
+    font-size:36px;
+    font-style: italic;
+    color:#1f2937;
+}
+
+span{
+    display: block;
+    margin-left:600px;
+    text-transform: capitalize;
+}
+/* end section three */
+/* start section four */
+.container3 {
+    margin-left: 200px;
+    margin-right: 200px;
+    height:125px;
+    background-color:#3882f6;
+    color:#e5e7eb;
+    border-radius:5px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container3 p {
+    margin-top: -15px;
+}
+.container3 .sub-contain2{
+    align-self:center;
+}
+.container3 button {
+    border:1px solid #e5e7eb;
+}
+/* end section three */
+/* footer */
+.footer {
+    background-color: #1f2937;
+    color:#e5e7eb;
+    margin-top:70px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: center;
+}
